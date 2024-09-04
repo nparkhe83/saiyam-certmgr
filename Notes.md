@@ -29,11 +29,11 @@ Not working. Same 404 error.
 ### Configure Cluster
 
 > Create namespace demo \
-> `$ kcrns demo`
+> `$ kubectl create namespace demo`
 
 > Install nginx controller \
 > `$ export version=controller-v1.6.3` \
-> `$ kaf https://raw.githubusercontent.com/kubernetes/ingress-nginx/$version/deploy/static/provider/cloud/deploy.yaml`
+> `$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/$version/deploy/static/provider/cloud/deploy.yaml`
 
 ### Apply deployment
 
