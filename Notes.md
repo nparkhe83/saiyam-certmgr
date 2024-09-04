@@ -8,7 +8,7 @@ Not working. Same 404 error.
 
 ### Configure Cluster
 
-> Create civo cluster
+> Create civo cluster \
 > `$ civo kubernetes create saiyam-certmgr --size "g4s.kube.medium" --nodes 2 --wait --save --merge --region FRA1`
 
 > Show details of cluster
